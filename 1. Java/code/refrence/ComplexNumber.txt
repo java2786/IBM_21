@@ -15,13 +15,17 @@ class ComplexNumber {
 		System.out.println(realNum + "+" + imgNum + "i");
 	}
 	
-	ComplexNumber add(ComplexNumber o1, ComplexNumber o2){
-		ComplexNumber cn = new ComplexNumber();
+	void add(ComplexNumber o1, ComplexNumber o2){
+		System.out.println((o1.realNum + o2.realNum) + "+" + (o1.imgNum + o2.imgNum) + "i");
+	}
 
-		cn.realNum = o1.realNum + o2.realNum;
-		cn.imgNum = o1.imgNum + o2.imgNum;
+	ComplexNumber add(ComplexNumber o1, ComplexNumber o2){
+		ComplexNumber sum = new ComplexNumber();
+
+		sum.realNum = o1.realNum + o2.realNum;
+		sum.imgNum = o1.imgNum + o2.imgNum;
 		
-		return cn;
+		return sum;
 	}
 
 }
@@ -37,12 +41,16 @@ class TestComplexNumber{
 		cn2.realNum = 4;
 		cn2.imgNum = 3;
 		cn2.show(); // 4+3i
-		
+/*	
 	ComplexNumber cn3 = new ComplexNumber();
 		cn3.realNum = cn1.realNum + cn2.realNum;
 		cn3.imgNum = cn1.imgNum + cn2.imgNum;
+	*/
 	
-
+	cn1.add(cn1, cn2);	
+	
+ComplexNumber sum = cn1.add(cn1, cn2);	
+sum.show();
 	}
 
 }
