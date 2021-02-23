@@ -29,12 +29,12 @@ public class EqualsDemo{
 		Student s2 = new Student();
 
 		s1.name = "mark";
-		s1.book = new Book();
-		s1.book.title = "Java in 21 days";
+		s1.book = new Book(); // Book@a3b56
+		// s1.book.title = "Java in 21 days";
 
 		s2.name = "mark";
-		s2.book = new Book();
-		s2.book.title = "Java in 21 days";
+		s2.book = new Book(); // Book@d43ca1
+		// s2.book.title = "Java in 21 days";
 
 		System.out.println(s1.equals(s2));
 	}
