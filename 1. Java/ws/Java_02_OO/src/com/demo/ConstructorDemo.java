@@ -5,8 +5,6 @@ class Rectangle {
 	int w;
 
 	Rectangle() {
-//		this.h = 1;
-//		this.w = 1;
 		this(1);
 	}
 	
@@ -36,8 +34,6 @@ class Rectangle {
 public class ConstructorDemo {
 	public static void main(String[] args) {
 		Rectangle rectangle = new Rectangle(0, 7);
-//		rectangle.h = 4;
-//		rectangle.w = 7;
 		System.out.println("Area: " + rectangle.area());
 
 		
