@@ -16,3 +16,48 @@
 
 
 
+## Content Covered  
+
+#### Day 1 - 22Feb2021  
+- Advantages of Java  
+- JDK vs JRE vs JVM  
+- JVM archetecture  
+- Why is java Platform Independent?  
+- Download & Install Java, adding path variable  
+- FirstProgram  
+- Main method  
+- Command Line Arguments  
+- Problems  
+
+#### Day 2 - 23Feb2021  
+- IDE/Eclipse  
+- Primitive Data Types  
+- Reference Data Types  
+- Variables  
+- Constant  
+- Static  
+- final  
+- equals vs ==  
+- If-Else  
+- switch  
+- Loops  
+- Array  
+- Problems  
+
+#### Day 3 - 24Feb2021  
+- Class vs Object  
+- Object memory layout  
+- Constructor  
+- this & super  
+- enum  
+- Access Modifier  
+- Beans/DTO  
+- Garbage Collection  
+- Is-A and Has-A relationship  
+- Inheritance  
+- Abstraction  
+- Interface  
+
+
+
+
