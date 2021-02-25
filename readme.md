@@ -34,9 +34,7 @@
 - Primitive Data Types  
 - Reference Data Types  
 - Variables  
-- Constant  
-- Static  
-- final  
+- Constant (final)  
 - equals vs ==  
 - If-Else  
 - switch  
@@ -45,6 +43,7 @@
 - Problems  
 
 #### Day 3 - 24Feb2021  
+- OO Thinking  
 - Class vs Object  
 - Object memory layout  
 - Constructor  
@@ -57,6 +56,34 @@
 - Inheritance  
 - Abstraction  
 - Interface  
+
+#### Day 4 - 25Feb2021  
+- Inheritance  
+- Abstraction  
+- Polymorphism  
+- Upcasting
+- Downcasting
+- Overloading
+- Overriding
+- Interface  
+- Static  
+- final  
+
+#### Day 5 - 26Feb2021  
+- String  
+- Math  
+- System  
+- Scanner  
+- What is Git  
+- VCS - CVCS vs DVCS  
+- Git vs Svn  
+- Git vs Git hub  
+- Download and Install git  
+- git config  
+- git init  
+- add, status, commit, reset, log, rm  
+- push  
+- checkout  
 
 
 

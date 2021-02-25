@@ -15,7 +15,6 @@ class Maruti800 extends Car{
 	void accelerate() {
 		System.out.println("speed+1");
 	}
-
 }
 class Alto extends Car{
 	void burnFuel(){
@@ -24,8 +23,8 @@ class Alto extends Car{
 	void accelerate() {
 		System.out.println("speed+2");
 	}
-
 }
+
 class BMW extends Car{
 	void burnFuel(){
 		System.out.println("20%");

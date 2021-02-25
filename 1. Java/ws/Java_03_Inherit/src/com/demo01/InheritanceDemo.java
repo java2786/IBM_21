@@ -4,7 +4,6 @@ abstract class Account {
 	int roi = 5;
 	int accBal = 10000;
 	
-	
 	void credit(int amount) {
 		System.out.println("credit: "+amount);
 		accBal += amount;
@@ -21,7 +20,7 @@ abstract class Account {
 	abstract int debit(int amount);
 }
 
-class SavingsAccount extends Account{
+class SavingsAccount extends Account {
 	SavingsAccount(){
 		super.roi = 3;
 	}
@@ -35,6 +34,14 @@ class SavingsAccount extends Account{
 			return 0;
 		}
 	}
+	
+	
+	/*
+void credit(int amount) {
+		System.out.println("credit: "+amount);
+		accBal += amount;
+	}
+	 */
 }
 class CurrentAccount extends Account{
 	CurrentAccount(){
@@ -50,6 +57,12 @@ class CurrentAccount extends Account{
 			return 0;
 		}
 	}
+	/*
+void credit(int amount) {
+		System.out.println("credit: "+amount);
+		accBal += amount;
+	}
+	 */
 }
 
 class Branch{
@@ -65,7 +78,8 @@ class Branch{
 	// parent type variable can hold/have child type instances
 	void manage(Account acc){// = new CurrentAccount(); -> polymorphism
 		System.out.println("Manager says: Welcome to the branch");
-		acc.debit(5000);
+		acc.checkBal();
+		acc.debit(1000);
 		acc.checkBal();
 	}
 //	void manage(Loan loan){
@@ -81,16 +95,16 @@ public class InheritanceDemo {
 		
 		SavingsAccount sa1 = new SavingsAccount();
 		SavingsAccount sa2 = new SavingsAccount();
-		sa1.debit(1000);
-		sa1.debit(5000);
-		sa1.checkBal();
+//		sa1.debit(1000);
+//		sa1.debit(5000);
+//		sa1.checkBal();
 		
 		CurrentAccount ca = new CurrentAccount();
 		ca.credit(5000);
 		
 		
 		Branch delhiBranch = new Branch();
-		delhiBranch.manage(sa2);
+//		delhiBranch.manage(sa2);
 		delhiBranch.manage(ca);
 		
 	}
