@@ -15,6 +15,8 @@ public class WrapperDemo {
 		int n1 = 33;
 		int n2 = 11;
 		
+		Integer ni = new Integer(55);
+		
 		wd.add(n1, n2);
 	}
 }
