@@ -68,12 +68,12 @@
 - Interface  
 - Static  
 - final  
+- Scanner  
 
 #### Day 5 - 26Feb2021  
 - String  
 - Math  
 - System  
-- Scanner  
 - What is Git  
 - VCS - CVCS vs DVCS  
 - Git vs Svn  

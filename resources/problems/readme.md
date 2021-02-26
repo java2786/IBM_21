@@ -5,9 +5,9 @@ Loan
 2. Education Loan (ROI=3%)
 3. Car Loan (ROI=8%)
 
-**Enter Loan type: 2
+**Enter Loan type: 1
 
-**Enter Loan amount:** amount  
+**Enter Loan amount:** 100  
 **Enter duration for loan(years):** n  
 
 **Enter Personal details:**  
@@ -15,12 +15,14 @@ Loan
 
 **Enter Education details:**  
 	Graduate, UnderGraduate, PostGraduate
+	Press a number: 1 for Graduate ...
 
 
 - User is not from India, say "We dont serve in your country"
 - User is Male, Graduate and age is more than 60 years  
 	80% of loan amount is approved  
-	**Accept/Deny**  
+	**Accept/Deny**
+	press 1 for yes or press 2 to cancle
 - User is Female, Graduate and age is more than 55 years  
 	80% of loan amount is approved  
 	**Accept/Deny**  
