@@ -27,7 +27,7 @@
 - FirstProgram  
 - Main method  
 - Command Line Arguments  
-- Problems  
+- Assignment  
 
 #### Day 2 - 23Feb2021  
 - IDE/Eclipse  
@@ -40,7 +40,7 @@
 - switch  
 - Loops  
 - Array  
-- Problems  
+- Assignment  
 
 #### Day 3 - 24Feb2021  
 - OO Thinking  
@@ -69,6 +69,7 @@
 - Static  
 - final  
 - Scanner  
+- Assignment    
 
 #### Day 5 - 26Feb2021  
 - String  
@@ -84,6 +85,7 @@
 - add, status, commit, reset, log, rm  
 - push  
 - checkout  
+- Assignment    
 
 
 

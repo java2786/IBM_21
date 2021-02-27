@@ -7,7 +7,7 @@ Git -> GitHub
 	
 	
 Create local repository -> upload
-Create server repository -> download
+Create server repository -> download -> clone
 
 
 Create local repository
@@ -51,3 +51,10 @@ Push a branch
 Swith to a branch named as "other"
 	git checkout other
 	
+
+--------------
+
+
+git clone repo_url
+To get update
+	git pull
