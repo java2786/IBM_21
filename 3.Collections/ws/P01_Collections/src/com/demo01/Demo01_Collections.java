@@ -26,11 +26,12 @@ public class Demo01_Collections {
 			c.add(new String("some text"));
 			c.add(false);
 			}
+		// 300
 		for(int i=0;i<100;i++) {
 			
-			c.remove(i);
+//			c.remove(i);
 			}
-			
+			// 200
 		System.out.println(c);
 		
 		System.out.println("Elements in collection: "+c.size());
