@@ -1,0 +1,8 @@
+Write Student class with name and age properties. Create a list of Students and sort list based on below conditions:
+1. Sort based on name.
+2. If names are same, then sort based on age.
+3. Reverse sorting, sort in descending order -> name and age
+
+
+
+We have 100 students in student list and want to sort them by age and remove last student from the list. (What should be used LinkedList, ArrayList or both)
