@@ -3,12 +3,12 @@ package com.doubts;
 import java.util.ArrayList;
 import java.util.Collections;
 
-class Student{
-    String name;
-    Student(String name){
-    this.name=name;
-}
-}
+//class Student{
+//    String name;
+//    Student(String name){
+//    this.name=name;
+//}
+//}
 public class TestStudent {
     public static void main(String[] args){
         ArrayList<Student> names= new ArrayList<Student>();

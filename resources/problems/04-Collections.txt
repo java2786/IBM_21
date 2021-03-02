@@ -13,3 +13,8 @@ Write Student class with name and age properties. Create a list of Students and 
 	for(int i=0;i<100;i++){
 		new Student("name"+i, (int)Math.random()*100)
 	}
+	
+=========================================
+
+5. Convert ArrayList into LinkedList and LinkedList into ArrayList.
+6. 
