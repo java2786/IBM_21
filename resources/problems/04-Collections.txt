@@ -17,4 +17,14 @@ Write Student class with name and age properties. Create a list of Students and 
 =========================================
 
 5. Convert ArrayList into LinkedList and LinkedList into ArrayList.
-6. 
+6. Write an mp3 player class to insert and show songs. (Duplicates songs not allowed).
+7. Save two books in set and verify if duplicate is removed.
+Book
+	Title: "Java in 21 days"
+	Price: 999
+	Author: "Mark Carl"
+	
+	
+	
+
+	

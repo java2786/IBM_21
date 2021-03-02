@@ -87,6 +87,19 @@
 - checkout  
 - Assignment    
 
+#### Day 6 - 1Mar2021  
+- What is collections framework  
+- collection framework hierarchy  
+- List  
+- ArrayList  
+- LinkedList  
+- Comparator  
+- Comparable  
+- Assignment    
 
-
-
+#### Day 7 - 2Mar2021  
+- Debugging java code  
+- Set
+- HashSet
+- Hashing
+- LinkedHashSet
