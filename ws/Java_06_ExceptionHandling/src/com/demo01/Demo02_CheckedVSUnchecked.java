@@ -13,16 +13,20 @@ public class Demo02_CheckedVSUnchecked {
 //		throw new NullPointerException();
 		
 		
+//		try {
 		// Unchecked exception
-//		throw new ClassCastException();
+		throw new ClassCastException();
+//		} catch(Exception e) {
+//			System.out.println("ex raised");
+//		}
 		
 		
 		// checked exception
-		try {
-			throw new FileNotFoundException();
-		} catch(Exception e) {
-			// ...
-		}
+//		try {
+//			throw new FileNotFoundException();
+//		} catch(Exception e) {
+//			// ...
+//		}
 		
 		
 	}

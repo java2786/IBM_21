@@ -1,6 +1,6 @@
 package com.demo01;
 
-public class GuardArea {
+public class Demo03_GuardArea {
 	
 	static void demo() {
 		String name = "arun";
@@ -19,7 +19,7 @@ public class GuardArea {
 	}
 
 	public static void main(String[] args) {
-		GuardArea.demo();
+		Demo03_GuardArea.demo();
 		
 		System.out.println("End of the program");
 	}
