@@ -2,6 +2,7 @@ package com.demo;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
 
 public class File01 {
 
@@ -54,13 +55,14 @@ public class File01 {
 	}
 	
 	private static void demo2() {
-//		File file = new File("D:\\Training\\IBM-21\\ws\\Java_07_FileIO");
-		File file = new File("D:\\Training\\IBM-21\\ws\\Java_07_FileIO\\abc.txt");
+		File file = new File("D:\\Training\\IBM-21\\ws\\Java_07_FileIO");
+//		File file = new File("D:\\Training\\IBM-21\\ws\\Java_07_FileIO\\abc.txt");
 		
 		System.out.println("IsDir: "+file.isDirectory());
 		System.out.println("Dir name: "+file.getName());
 		System.out.println("Dir path: "+file.getPath());
 		System.out.println("Dir path: "+file.getAbsolutePath());
+		System.out.println("files/dirs list: "+Arrays.toString(file.list()));
 
 	}
 }

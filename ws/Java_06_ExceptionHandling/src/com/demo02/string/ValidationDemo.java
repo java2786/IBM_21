@@ -7,7 +7,16 @@ public class ValidationDemo {
 //		testRegEx_1();
 //		testRegEx_2();
 //		testRegEx_3();
-		testPassword();
+//		testPassword();
+		testPassword1();
+	}
+	
+	private static void testPassword1() {
+		String pwdReg = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=_])(?=\\S+$).{8,20}$";
+		System.out.println("@".matches(pwdReg));
+		System.out.println("_".matches(pwdReg));
+		System.out.println("tom_mikE@a".matches(pwdReg));
+		System.out.println("tommikE123".matches(pwdReg));
 	}
 	
 	private static void testPassword() {

@@ -15,7 +15,7 @@
 		
 2. Only registered users can login.
 3. Once login is success, user will see below details
-	
+
 	Item: Mobile
 	Price: 45999.9
 	Company: OnePlus
@@ -45,8 +45,8 @@
 	
 5. Thank you for purchase. You will get your order in next few days.
 	
-		
-	
+=========================	
+
 Map<String, User> users = new HashMap<String, User>();
 
 register(){
