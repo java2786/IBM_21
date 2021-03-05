@@ -6,3 +6,12 @@ Calculator
 	should div number
 	should not div by zero
 	
+	
+	
+// how to add downloaded jar
+1. create a directory (lib) in the project
+2. save jar in the directory (lib)
+3. properties -> build path -> library -> add jar
+
+// hamcrest
+
