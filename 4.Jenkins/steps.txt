@@ -17,3 +17,31 @@ How to install and start jenkins:
 		password
 			initialAdminPassword file will be deleted
 	9. Dashboard will be visible
+	
+	
+How to create job:
+	1. New Item
+		1.1. Freestyle project
+		1.2. Build (windows batch)
+			=> invalid command -> based on your os
+				ryetbdfl
+			=> valid command -> based on your os
+				echo some text
+				java -version
+				javac -version 
+				dir
+			
+	2. Create new Job
+		2.1. Same as above
+		2.2. Build Trigger
+			previous
+		2.3. Post build
+			next
+			
+	3. Create new job
+		Same as job 1
+		
+		
+			
+		
+		
