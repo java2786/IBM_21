@@ -41,7 +41,24 @@ How to create job:
 	3. Create new job
 		Same as job 1
 		
+
+Notifications settings
+	install email extesion
+	Manage jenkins -> configure system -> E-mail Notification
+
+	mail provier -> arclab
+	https://www.arclab.com/en/kb/email/list-of-smtp-and-pop3-servers-mailserver-list.html
+		server: smtp.gmail.com	
+		Use SSL	: true
+		Port: 465
 		
-			
+		username + password
+		
+	Allow "Less secure app access"
+	Proxy, anti virus
+		
+Triggers
+
+
 		
 		
