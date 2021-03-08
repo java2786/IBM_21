@@ -40,6 +40,7 @@ public class OrderServiceImpl implements OrderService {
 	@Override
 	public boolean cancelOrder(int id) {
 		// TODO Auto-generated method stub
+		// order with id, status -> cancel
 		return false;
 	}
 

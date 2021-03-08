@@ -74,6 +74,7 @@ public class TestOrderService {
 	
 	@Test(expected = ArithmeticException.class)
 	public void demo() {
+		throw new ArithmeticException();
 //		Calculator.div(24, 0);
 	}
 }

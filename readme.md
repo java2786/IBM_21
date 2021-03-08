@@ -93,13 +93,66 @@
 - List  
 - ArrayList  
 - LinkedList  
+- Generics
 - Comparator  
 - Comparable  
 - Assignment    
 
 #### Day 7 - 2Mar2021  
-- Debugging java code  
+- Debugging java code
 - Set
 - HashSet
 - Hashing
 - LinkedHashSet
+- TreeSet
+- Map
+- HashMap
+- Hashtable
+- Assignment
+
+#### Day 8 - 3Mar2021  
+- what is exception handling
+- exception vs error
+- guarded region
+- final vs finalise vs finally
+- use multiple catch block
+- checked exceptions vs unchecked exception
+- throw vs throws
+- Custom exception
+- validation using regular expression
+- what is file handling
+- stream
+- Byte steam vs character stream
+- InputStream and OutputStream
+- Writing in a file
+- Writing in a file (append)
+
+#### Day 9 - 4Mar2021  
+- Reading a file
+- serialization
+- deserialization
+- marker interface
+- serializable
+- online shop application
+- Assignments  
+
+#### Day 10 - 5Mar2021  
+- What is unit testing  
+- Junit and Testng   
+- Installing junit  
+- TDD  
+- writing a test  
+- before vs constructor  
+- suite test  
+- ignore test  
+- assert matchers  
+- hamcrest matchers  
+- exception test  
+- before is beforeEach  
+- after is afterEach  
+- beforeClass is beforeAll  
+- afterClass is afterAll  
+- junit4 vs junit5   
+- What is mocking  
+- Mockito  
+

@@ -1,0 +1,19 @@
+How to install and start jenkins:
+	1. Jenkins.io-> downloads -> download war
+	2. terminal/cmd -> go to the path where jenkins.war is available
+	3. java -jar jenkins.war
+		jenkins.war file is name+ext (use ls, dir)
+	4. Open browser and use localhost:8080
+	5. Copy password from initialAdminPassword
+		/users/arun/.jenkins/secrets
+	6. Install plugins
+	7. wait
+	8. Create new account/user
+		no/skip
+		username: admin
+		passwrod: default
+	8.1. If you create a user (admin)
+		username
+		password
+			initialAdminPassword file will be deleted
+	9. Dashboard will be visible
