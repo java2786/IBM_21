@@ -5,7 +5,8 @@ https://maven.apache.org/download.cgi
 https://mirrors.estointernet.in/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip
 MAVEN_HOME => maven path
 
-
+add new path in PATH
+maven path/bin
 
 
 
