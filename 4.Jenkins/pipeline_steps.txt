@@ -9,7 +9,7 @@
 	    git 'https://github.com/java2786/ibm_21_jenkins'
 	
 	    stage('compile') {
-	        sh 'javac Demo.java'
+	        bat 'javac Demo.java'
 	    }
 	    
 	    stage('send_mail') {
@@ -19,3 +19,49 @@
 	}
 	
 Build project
+
+
+node('master'){
+    
+    // checkout
+    git 'https://github.com/java2786/ibm_21_jenkins'
+
+    stage('compile') {
+        sh 'javac Demo.java'
+    }
+    
+    stage('send_mail') {
+        mail bcc: '', body: "$BUILD_NUMBER $currentBuild.currentResult", cc: 'arunarti31@gmail.com', from: '', replyTo: '', subject: "jenkins-$JOB_NAME-$BUILD_NUMBER", to: 'java.kumar.arun@gmail.com'
+    }
+
+}
+
+
+
+
+
+---------------------------
+
+pipeline {
+    agent any
+    stages {
+        stage('Checkout') {
+            steps{
+                git 'https://github.com/java2786/ibm_21_jenkins'
+            }
+        }
+        stage('Compile') {
+            steps{
+                sh 'javac Demo.java'
+            }
+        }
+    }
+    post {
+        failure {
+            mail bcc: '', body: "$BUILD_NUMBER", subject: "$JOB_NAME", to: 'java.kumar.arun@gmail.com'
+        }
+        success {
+            mail bcc: '', body: "$BUILD_NUMBER", subject: "$JOB_NAME", to: 'java.kumar.arun@gmail.com'
+        }      
+    }
+}
