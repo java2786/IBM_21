@@ -1,0 +1,2 @@
+1. maven with jenkins -> sahana
+2. mvn -> eclipse -> mvn test -> sakshi
