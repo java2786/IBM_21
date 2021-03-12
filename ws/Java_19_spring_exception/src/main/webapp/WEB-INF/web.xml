@@ -8,18 +8,8 @@
   	<servlet-name>spring</servlet-name>
   	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
   </servlet>
-  <servlet>
-  	<servlet-name>HomePageServlet</servlet-name>
-  	<display-name>HomePageServlet</display-name>
-  	<description></description>
-  	<servlet-class>com.demo.servlets.HomePageServlet</servlet-class>
-  </servlet>
   <servlet-mapping>
   	<servlet-name>spring</servlet-name>
   	<url-pattern>/rest/*</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-  	<servlet-name>HomePageServlet</servlet-name>
-  	<url-pattern>/home</url-pattern>
   </servlet-mapping>
 </web-app>

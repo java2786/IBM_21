@@ -9,6 +9,7 @@ import java.util.Set;
 
 import org.springframework.stereotype.Service;
 
+import com.demo.exceptions.InvalidItemException;
 import com.demo.models.Item;
 import com.demo.util.DB;
 
@@ -32,9 +33,19 @@ public class ItemService {
 	public Item getItemByCode(int code) {
 		return DB.getItemsDb().get(code);
 	}
-	public Item saveItem(Item item) {
-		DB.getItemsDb().put(item.getCode(), item);
-		return item;
+	public Item saveItem(Item item) throws InvalidItemException {
+		
+		// verify
+		if(item.getName()==null || item.getName().length()==0) {
+			throw new InvalidItemException("Item does not have name");
+		} else if(item.getPrice()<1) {
+			throw new InvalidItemException("Item does not have valid price");
+		} else if(item.getCode()<=0) {
+			throw new InvalidItemException("Item does not have valid code");			
+		} else {
+			DB.getItemsDb().put(item.getCode(), item);
+			return item;
+		}
 	}
 	public Item updateItem(int code, Item item) {
 		DB.getItemsDb().put(code, item);
