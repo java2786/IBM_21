@@ -156,3 +156,116 @@
 - What is mocking  
 - Mockito  
 
+#### Day 11 - 8Mar2021  
+- What is Continuous Integration?  
+- Jenkins- Continuous Integration (CI) Tool  
+- How to Download & Install Jenkins on Windows  
+- Post-installation setup wizard  
+- Creating the first administrator user  
+- How does jenkins work ?  
+- Using Jenkins - Freestyle project  
+- Build Triggers, Cron Job, shell, Console output  
+- Project chaining  
+- Installing plugins  
+- Email extension plugin  
+- Configure mail with jenkins  
+- Sending mail  
+	
+#### Day 12 - 9Mar2021  
+- Doubts  
+- Git plugin  
+- Clone/Checkout git project in jenkins	  
+- What is Continuous Delivery ?  
+- What is Pipeline ?  
+- Build Pipeline plugin  
+- Delivery Pipeline plugin  
+- Pipeline plugin  
+- Defining a Pipeline - Pipeline project  
+- Defining a Pipeline in SCM  
+- Scripted Pipeline syntax  
+- Declarative pipeline syntax  
+- Built-in Documentation  
+- Global Variable Reference  
+- Using a Jenkinsfile  
+- eclipse + git + jenkins  
+
+#### Day 13 - 10Mar2021  
+- Basics of Javascript  
+- JSON  
+- Function vs Method  
+- Relational database vs Non relational database  
+- SQL vs NoSQL  
+- What is MongoDB?  
+- How to Download & Install MongoDB on Windows  
+- How to start MongoDB on Windows  
+- Connecting to MongoDB  
+- Database, Collection & Document  
+- How to Create Database & Collection  
+- Running mongodb queries   
+- Performing CRUD - Create operation - Insert query  
+- Performing CRUD - Read operation - Find query  
+- Performing CRUD - Update operation - Update query  
+- Performing CRUD - Delete operation - Remove query  
+
+- Maven  
+- What is maven  
+- Why to use maven  
+- How to Download & Install Maven  
+- Setting environment variables  
+- POM.xml  
+- Creating simple maven project  
+- Maven project Directory Structure  
+- Maven repository  
+- Manage dependencies  
+- Maven Build Life Cycles  
+- validate  
+- compile  
+- test  
+- package  
+- install  
+	
+
+#### Day 14 - 11Mar2021  
+- Tomcat  
+- Web, Http, Server  
+- WebServer vs ApplicationServer  
+- What is Apache Tomcat   
+- Download and Install (Windows)  
+- Running Tomcat  
+- Changing default port  
+- Deploying java web applications  
+- Configure eclipse and tomcat  
+- Start/Stop tomcat from eclipse  
+
+- What is MVC  
+- Creating maven web application  
+- Form data - login.html  
+- GET vs POST  
+- Sending request from client  
+- Consuming request object in Servlet  
+- Reading request parameters  
+- Response redirect to JSP  
+- HttpCodes  
+	
+	
+#### Day 15 - 12Mar2021  
+- Spring REst  
+- DispatcherServlet  
+- Configure DispatcherServlet in web.xml  
+- Writing spring configuration file - dispatcher-sevlet.xml  
+- @Controller vs @RestController  
+- @RequestMapping  
+- @GetMapping  
+- @PostMapping  
+- @PutMapping  
+- @GetMapping  
+- Consume and Return JSON, Jackson-databind  
+- @PathVariable  
+- @RequestBody  
+- @ResponseEntity  
+- Error Handling for REST  
+- Installing HTTP client Postman  
+- HTTP methods: GET, POST, PUT, DELETE  
+- Postman: Request Body and Response  
+
+
