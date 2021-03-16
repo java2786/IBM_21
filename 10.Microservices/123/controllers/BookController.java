@@ -19,7 +19,6 @@ import com.demo.services.BookService;
 @RequestMapping("books")
 @CrossOrigin(origins= {"https://hoppscotch.io"} )
 public class BookController {
-	
 	@Autowired
 	BookService bookService;
 	
