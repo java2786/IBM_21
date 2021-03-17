@@ -54,4 +54,27 @@
 		ResponseEntity<List<Movie>> response = restTemplate.exchange(url, method, data, new ParameterizedTypeReferenceList<Movie>(){});
 		return response.getBody();
 	}
-		
+
+
+---------------------------
+
+9. Hystrix 
+	add starter hystrix dependency
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+		</dependency>
+	
+	@EnableCircuitBreaker
+	
+	
+	-> fallback -> @HystrixCommand -> configure
+	
+	@HystrixCommand(fallbackMethod = "findMoviesFallback",
+		commandProperties = {
+			@HystrixProperty(name="execution.isolation.thread.timeoutInMilliseconds",value = "2000"),
+			@HystrixProperty(name="circuitBreaker.requestVolumeThreshold",value = "10"),
+			@HystrixProperty(name="circuitBreaker.errorThresholdPercentage",value = "90"),
+			@HystrixProperty(name="circuitBreaker.sleepWindowInMilliseconds",value = "5000")
+		}
+	)
