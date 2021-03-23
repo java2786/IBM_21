@@ -269,3 +269,64 @@
 - Postman: Request Body and Response  
 
 
+#### Day 16 - 15Mar2021  
+- Spring Initializr
+- Understand the structure
+- @SpringBootApplication
+- Dev-Tools for faster application development
+- Understand and implement the concept of database
+- CrudRepository
+- MongoRepository
+- CRUD operations
+- Create RESTful API's
+
+
+#### Day 17 - 16Mar2021  
+- Monolithic vs Microservice Application
+- Service Discovery
+- Eureka Server
+- Eureka Client
+- Introduction to API Gateways
+- Setting up Zuul API Gateway
+- Executing requests through Zuul API Gateway
+- Setting up Zuul API Gateway between microservice invocations
+- Load Balancing with Eureka
+
+#### Day 18 - 17Mar2021  
+- Getting started with Circuit Breaker
+- Playing with Resilience
+- Running multiple instances of same service
+- BookMyShow - Microservice Architecture
+- UserService
+- MoviesService
+- BookingService
+
+#### Day 19 - 18Mar2021  
+- Virtualization vs Containerization    
+- What is docker ?
+- DockerToolbox vs DockerDesktop
+- Download and Install DockerDesktop
+- HelloWorld image - Docker Hub
+- List running containers
+- List all containers
+- Stop running container
+- Kill running container
+- Delele container
+- Delete image
+- Dockerfile
+- Building Images
+
+#### Day 20 - 19Mar2021  
+- Doubts
+- Extending Official Images
+- Image Tagging and Pushing to Docker Hub
+- Pushing using maven
+- Docker network
+- Dockerizing multiple services
+- Communication b/w multiple services
+- RestTemplate
+- @LoadBalanced
+- Assignment -> Spring + SpringBoot + Database + SpringCloud + Maven + Docker
+
+#### Day 21 - 22Mar2021  
+
