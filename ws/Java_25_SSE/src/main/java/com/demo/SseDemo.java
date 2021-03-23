@@ -10,16 +10,21 @@ import javax.servlet.http.HttpServletResponse;
 
 // /sse
 public class SseDemo extends HttpServlet {
-	protected void doGet(HttpServletRequest req, HttpServletResponse response) throws ServletException, IOException {
+	
+	public void add(int fnum, int snum) {
+		
+	}
+	
+	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/event-stream");
 		response.setCharacterEncoding("UTF-8");
 
-		PrintWriter pw = response.getWriter();
-		pw.write("data: " + System.currentTimeMillis() + "\n\n");
-		pw.close();
+		PrintWriter out = response.getWriter();
+		out.write("data: " + System.currentTimeMillis() + "\n\n");
+		out.close();
 	}
 
-	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+	public void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		System.out.println("in post method");
 		doGet(request, response);
