@@ -11,7 +11,9 @@ export default class AppComponent {
     head:string = "Super Calculator";
     result:number = 0;
     operator:string = "+";
-    
+
+    fn:number = 0;
+    sn:number = 0;
 
     constructor() {
         console.log("my calculator component is rendered");
@@ -22,7 +24,13 @@ export default class AppComponent {
         this.operator = p;
     }
 
-    calculate(n1:number, n2:number){
+    calculate(){
+        let n1 = this.fn;
+        let n2 = this.sn;
+
+        this.fn = 0;
+        this.sn = 0;
+        
         console.log("show result");
         switch(this.operator){
             case "+":

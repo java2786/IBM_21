@@ -1,8 +1,10 @@
-import { enableProdMode } from '@angular/core';
+import { enableProdMode, NgModule } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 // import AppModule from "./app/app.module";
-import AppModule from "./01_databinging/app.module";
+// import AppModule from "./01_databinging/app.module";
+// import AppModule from "./02_databinging/app.module";
+import {AppModule} from "./03_databinding/app.module"
 
 
 import { environment } from './environments/environment';
