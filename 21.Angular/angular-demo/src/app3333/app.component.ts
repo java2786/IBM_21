@@ -1,3 +1,4 @@
+import { calcPossibleSecurityContexts } from '@angular/compiler/src/template_parser/binding_parser';
 import { Component } from '@angular/core';
 
 @Component({
@@ -8,3 +9,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular-demo';
 }
+
+
