@@ -1,0 +1,16 @@
+1. Install nodejs (npm)
+    https://nodejs.org/en/
+2. Install @ancular/cli - https://angular.io/guide/setup-local
+    npm install -g @angular/cli
+3. Create project
+    ng new my-project-name
+        type checking- N
+        routing - N
+        Use CSs
+
+4. cd my-project-demo
+5. npm start
+    localhost:4200
+
+6. src -> app -> app.component.html
+    updated
