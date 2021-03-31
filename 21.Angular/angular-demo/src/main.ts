@@ -6,7 +6,8 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 // import AppModule from "./02_databinging/app.module";
 // import {AppModule} from "./03_databinding/app.module"
 // import AppModule from "./doubts/app.module"
-import {AppModule} from "./04_parent-child/app.module";
+// import {AppModule} from "./04_parent-child/app.module";
+import {AppModule} from "./05_directives/app.module";
 
 
 
