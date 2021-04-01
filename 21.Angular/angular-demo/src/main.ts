@@ -1,5 +1,7 @@
-import { enableProdMode, NgModule } from '@angular/core';
+import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { AppModule } from './06_badges/app.module';
+import { environment } from './environments/environment';
 
 // import AppModule from "./app/app.module";
 // import AppModule from "./01_databinging/app.module";
@@ -7,11 +9,11 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 // import {AppModule} from "./03_databinding/app.module"
 // import AppModule from "./doubts/app.module"
 // import {AppModule} from "./04_parent-child/app.module";
-import {AppModule} from "./05_directives/app.module";
+// import {AppModule} from "./05_directives/app.module";
+// import AppModule from './practice_01/app.module';
 
 
 
-import { environment } from './environments/environment';
 
 if (environment.production) {
   enableProdMode();
