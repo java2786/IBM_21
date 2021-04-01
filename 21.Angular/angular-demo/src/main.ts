@@ -12,7 +12,10 @@ import { environment } from './environments/environment';
 // import AppModule from './practice_01/app.module';
 // import { AppModule } from './06_badges/app.module';
 // import { AppModule } from './07_directives/app.module';
-import { AppModule } from './08_pipes/app.module';
+// import { AppModule } from './07_doubts/app.module';
+// import { AppModule } from './08_pipes/app.module';
+// import { AppModule } from './08_doubts/app.module';
+import { AppModule } from './09_forms/app.module';
 
 
 
