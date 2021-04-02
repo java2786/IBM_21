@@ -16,7 +16,8 @@ import { environment } from './environments/environment';
 // import { AppModule } from './08_pipes/app.module';
 // import { AppModule } from './08_doubts/app.module';
 // import { AppModule } from './09_forms/app.module';
-import { AppModule } from './10_services/app.module';
+// import { AppModule } from './10_services/app.module';
+import { AppModule } from './11_fetch/app.module';
 
 
 
