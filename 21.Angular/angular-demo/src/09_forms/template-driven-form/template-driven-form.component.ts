@@ -6,7 +6,7 @@ import { NgForm } from '@angular/forms';
   templateUrl: './template-driven-form.component.html',
   styleUrls: ['./template-driven-form.component.css']
 })
-export class TemplateDrivenFormComponent implements OnInit {
+export class TemplateDrivenFormComponent {
 
   // myForm:NgForm;
   user:any = {
@@ -16,18 +16,12 @@ export class TemplateDrivenFormComponent implements OnInit {
     password: ""
   }
 
-  
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
   getLogin(myForm){
     console.log("+++++");
     console.log(myForm);
     console.log(myForm.value);
     console.log(this.user);
+    console.log("send request to server");
   }
 
 }
