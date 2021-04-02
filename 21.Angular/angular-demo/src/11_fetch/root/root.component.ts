@@ -34,4 +34,28 @@ export class RootComponent implements OnInit {
 
   }
 
+
+  postData(){
+
+    fetch("url", {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({})
+    })
+    .then((res:any)=>{
+      return res.json();
+    })
+    .then((res:any)=>{
+      console.log(res);
+    })
+    .catch((err:any)=>{
+      console.log(err);
+    })
+    
+
+
+  }
+
 }
