@@ -18,7 +18,8 @@ import { environment } from './environments/environment';
 // import { AppModule } from './09_forms/app.module';
 // import { AppModule } from './10_services/app.module';
 // import { AppModule } from './11_fetch/app.module';
-import AppModule from './12_http/app.module';
+// import AppModule from './12_http/app.module';
+import AppModule from './13_changeDetection/app.module';
 
 
 
