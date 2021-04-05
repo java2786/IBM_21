@@ -20,7 +20,10 @@ import { environment } from './environments/environment';
 // import { AppModule } from './11_fetch/app.module';
 // import AppModule from './12_http/app.module';
 // import AppModule from './13_changeDetection/app.module';
-import AppModule from './14_spa/app.module';
+// import AppModule from './14_spa/app.module';
+// import AppModule from './15_books/app.module';
+// import {AppModule} from './16_nested/app.module';
+import {AppModule} from './17-ng-bootstrap/app.module';
 
 
 
