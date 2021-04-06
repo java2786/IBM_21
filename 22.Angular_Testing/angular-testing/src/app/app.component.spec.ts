@@ -1,54 +1,35 @@
-
-class Calculator{
-  add(a, b){
-    return a+b;
-  }
-  mul(a, b){
-    return a*b;
-  }
-}
+import { ComponentFixture, TestBed } from "@angular/core/testing";
+import { AppComponent } from "./app.component";
 
 
-describe("Calculator", function () {
-  it("should be created", () => {
-    console.log("my calculator should be ready");
-  })
+/* 
+main
+    platformBrowserDynamic().bootstrapModule(AppModule)
 
-  describe("should not", function () {
-    it("add 2 string", () => {
-      console.log("adding 2 strings");
-    })
-    it("add 2 objects", () => {
-      console.log("adding 2 objects");
-    })
-  })
+    @NgModule
+    AppModule
+        declarations : [AppComponent] 
+            template 
+            Css/SCSS 
+            class -> logic => variables, methods
+        imports 
+            BrowserModule
+        providers 
+        bootstrap 
+ */
 
-  describe("should", function () {
-    describe("add", function () {
-      it("2 positive numbers", () => {
-        let a = 6;
-        let b = 2;
-        let ex = 8;
-        
-        console.log("adding 2 positive numbers");
 
-        expect(new Calculator().add(a, b)).toBe(ex);
+describe("AppComponent", function(){
+    it("should be created", function(){
+        TestBed.configureTestingModule({
+            declarations : [AppComponent]
+        });
 
-      })
-      it("2 negative numbers", () => {
-        console.log("adding 2 negative numbers");
-      })
-      it("1 positive and 1 negative numbers", () => {
-        console.log("adding 1 positive and 1 negative numbers");
-      })
-    })
+        const fixture:ComponentFixture<AppComponent> = TestBed.createComponent(AppComponent);
+        // console.log(fixture.componentInstance)
 
-    describe("multiply", function () {
-      it("2 positive numbers", () => {
-        console.log("multiplying 2 positive numbers");
-      })
-    })
-
-  })
-
+        let comp:AppComponent = fixture.componentInstance;
+        expect(comp).not.toBe(null);
+        expect(comp).toBeDefined();
+    })    
 })
