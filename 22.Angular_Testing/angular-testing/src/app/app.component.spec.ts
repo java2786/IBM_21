@@ -1,3 +1,14 @@
+
+class Calculator{
+  add(a, b){
+    return a+b;
+  }
+  mul(a, b){
+    return a*b;
+  }
+}
+
+
 describe("Calculator", function () {
   it("should be created", () => {
     console.log("my calculator should be ready");
@@ -17,10 +28,11 @@ describe("Calculator", function () {
       it("2 positive numbers", () => {
         let a = 6;
         let b = 2;
+        let ex = 8;
         
         console.log("adding 2 positive numbers");
 
-        expect(a+b).toBeGreaterThan(10);
+        expect(new Calculator().add(a, b)).toBe(ex);
 
       })
       it("2 negative numbers", () => {
