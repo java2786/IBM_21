@@ -4,26 +4,32 @@
 module.exports = function (config) {
   config.set({
     basePath: '',
-    frameworks: ['jasmine', '@angular-devkit/build-angular'],
+    // frameworks: ['jasmine', '@angular-devkit/build-angular'],
+    frameworks: ['mocha', 'sinon', 'chai', '@angular-devkit/build-angular'],
     plugins: [
-      require('karma-jasmine'),
+      // require('karma-jasmine'),
+      require('karma-mocha'),
+      require('karma-sinon'),
+      require('karma-chai'),
       require('karma-chrome-launcher'),
-      require('karma-jasmine-html-reporter'),
+      // require('karma-jasmine-html-reporter'),
+      require('karma-mocha-reporter'),
       require('karma-coverage'),
       require('@angular-devkit/build-angular/plugins/karma')
     ],
     client: {
-      jasmine: {
-        // you can add configuration options for Jasmine here
-        // the possible options are listed at https://jasmine.github.io/api/edge/Configuration.html
-        // for example, you can disable the random execution with `random: false`
-        // or set a specific seed with `seed: 4321`
-      },
-      clearContext: false // leave Jasmine Spec Runner output visible in browser
+      chai: {
+        includeStack: true
     },
-    jasmineHtmlReporter: {
-      suppressAll: true // removes the duplicated traces
+    mocha: {
+        reporter: 'html',
+        ui: 'bdd'
+    }
+      // clearContext: false // leave Jasmine Spec Runner output visible in browser
     },
+    // jasmineHtmlReporter: {
+    //   suppressAll: true // removes the duplicated traces
+    // },
     coverageReporter: {
       dir: require('path').join(__dirname, './coverage/testing-demo'),
       subdir: '.',
@@ -32,7 +38,8 @@ module.exports = function (config) {
         { type: 'text-summary' }
       ]
     },
-    reporters: ['progress', 'kjhtml'],
+    // reporters: ['progress', 'kjhtml'],
+    reporters: ['progress', 'mocha'],
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
