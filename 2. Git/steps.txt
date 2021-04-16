@@ -58,3 +58,11 @@ Swith to a branch named as "other"
 git clone repo_url
 To get update
 	git pull
+	
+	
+-------------------
+
+pull from branch
+
+	git pull <gitreponame> <branchname>
+	git pull origin branchName
