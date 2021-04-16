@@ -64,5 +64,6 @@ To get update
 
 pull from branch
 
+	git checkout branchName
 	git pull <gitreponame> <branchname>
 	git pull origin branchName
