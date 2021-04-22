@@ -1,15 +1,18 @@
-1. maven with jenkins -> sahana
-
-	Shell
-		export MAVEN_HOME=/opt/maven
-		export PATH=$PATH:$MAVEN_HOME/bin
-		mvn clean compile test package
+React
+	SPA - Route
+	'this'
+	Axio or fetch
+	Form
+	App demo
+	Testing
 	
-	Window batch
-		set MAVEN_HOME=maven-path
-		set PATH=%MAVEN_HOME%\bin;%PATH%
-		mvn clean compile test package
-
+Angular
+	Guard
 	
+Html
+	Socket
+	
+SringBoot
+	Socket
 
-2. mvn -> eclipse -> mvn test -> sakshi
+

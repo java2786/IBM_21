@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+
+            <nav>
+                <a [routerLink]="['/', 'home']">Home</a> |
+                <a [routerLink]="['/', 'create']">Create Item</a> |
+                <a [routerLink]="['/', 'signin']">SignIn</a> |
+                <a [routerLink]="['/', 'signup']">SignUp</a> |
+            </nav>
+            <section>
+                User: {{user|json}}<br/>
+                <button (click)="login()">Login</button>
+<button (click)="logout()">Logout</button>
+            </section>
+
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

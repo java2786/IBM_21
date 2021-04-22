@@ -4,39 +4,108 @@ POC--->
 Trainer --> any one ->
 ----------------------------------
 
-Team -
+Team - 
 	Atit M
 	Akshay Rao
 	Sweety
-	Sahana
+	Sahana - POC
+	
+	Online Shopping
+	login
+		seller, buyer, admin
+	Profile page 
+		user details
+		
+	Home page
+		item categories
+		
+		feedback
+
+	Buyer
+		OrderModule
+			select item(s)
+			
+		Payment
+			button
+				agree
+		
+		Cart
+			Invoice
+			
+	Seller
+		create item
+		edit item 
+	
+	admin
+		block seller
 
 Team -
 	Shravya 
-	Ayushi 
+	Ayushi - POC
 	Mayank 
 	Ekta
+		online shopping
 	
 Team -
 	Awalpreet Kaur
 	Sakshi Patmase
 	Vagbhi Sharma
-	Harini Subramanian
-
+	Harini Subramanian - POC
+		online shopping
 Team -
 	Alekhya
 	Manasa
-	Divya
+	Divya - POC
 	Sakshi Aggarwal
 	
+	Food ordering app
+	
+	User
+		guest, login, admin, manager
+	
+	Home 
+		restaurant details 
+				rest 1 - delhi 
+				rest 2 - kolkata
+				rest 3 - mumbai
+				rest 40 - delhi
+					10
+				
+			user input -> location
+				dropdown -> delhi, kolkata,...
+			
+				Menu
+					add cart
+					
+					checkout/ta
+					
+						payment
+							billing address 
+			
+					tracking -> manager
+						order received
+						order in kitchen
+						order is ready
+						order is delivered
+						paymet is received
+						
+					new order is placed
+						manager, admin and user 
+							email - notification
+							manager -> ask his chef
 Team -
-	Falak
+	Falak - POC
 	Isha
 	Harshini 
 	Sai lakshmi
+		com.kmpl.rys
+
 	
 	
 =============================
 
 e commerce site
-		
-	
+
+
+
+MySql/Mongo SpringBoot Angular/React = Java Full Stack
